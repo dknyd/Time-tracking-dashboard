@@ -1,0 +1,24 @@
+
+ /* HOVER */
+ 
+ .tile:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+ }
+
+ .image__background:hover + .data__container{
+  background-color: var(--Blue);
+ }
+
+ .data__container:hover{
+    background-color: var(--Blue);
+ }
+
+ .container__view .d:hover,
+.container__view .w:hover,
+.container__view .m:hover {
+    cursor: pointer;
+    color: white;
+}
+
